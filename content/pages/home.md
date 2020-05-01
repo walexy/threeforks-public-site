@@ -1,30 +1,32 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: Trinity Forks
+featuredImage: 'http://localhost:8000/images/Trinity_Park_Fort_Worth_Texas_banner.jpg'
+subtitle: 'We&rsquo;re helping organizations like Zs Café work together with the best non-profits in Fort Worth to feed the hungry'
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: One Fort Worth to feed the hungry.
+  title: Home
+sectionHeroVid: |-
+  ## headline
+  <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+video: '/video/1080p.mov'
+videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
+videoTitle: One Fort Worth.
+accordion:
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+Zs Café is using the Trinity Forks platform to track the growing food insecurity problem, recruit volunteers, and organize food delivery. They are great people doing great things &mdash; one vision to feed Tarrant county with our abundant resources and talents.
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+Trinity Forks wants to help Zs Café and its partners to do the purpose-driven work they were called to do. They recruit volunteers, promote the cause, produce thousands of robust and healthy meals, and deliver it. Our application tracks the need, the facilities, and volunteers. It matches the need to the skills and resources required to feed 500,000 hungry people. 
 
-# Features
+As the platform grows, non-profit organizations will be able to coordinate cooperative efforts and share responsibility. Together, they are managing the acute problem of food insecurity. As their work evolves, they will sustain the effort by reducing chronic food hunger.
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
-
-## Get started
-
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+Trinity Forks provides an essential tool to help organizations across Tarrant county, the largest county in the country, to lead the way, reduce overlapping work, and coordinate with each other.

@@ -6,19 +6,30 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import SVGIcon from '../components/SVGIcon'
 
+import BackgroundVideo from '../components/BackgroundVideo'
+import Gallery from '../components/Gallery'
+
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
+  video,
+  videoPoster,
+  videoTitle,
   body
 }) => (
   <main className="DefaultPage">
     <PageHeader
       title={title}
       subtitle={subtitle}
-      backgroundImage={featuredImage}
+      backgroundImage={featuredImage} 
     />
+    <section className="BackgroundVideo-section section">
+      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+        {video && <source src={video} type="video/mov" />}
+      </BackgroundVideo>
+    </section>
 
     <section className="section">
       <div className="container">
@@ -48,6 +59,9 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        video
+        videoPoster
+        videoTitle
       }
     }
   }

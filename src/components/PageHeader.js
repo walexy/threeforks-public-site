@@ -25,10 +25,15 @@ const PageHeader = ({
         />
       )}
       <div className="container relative">
-        <h1 className="PageHeader--Title">{title}</h1>
-        {subtitle && (
-          <Content className="PageHeader--Subtitle" src={subtitle} />
-        )}
+        <div>
+          <h1 className="PageHeader--Title">{title}</h1>
+          {subtitle && (
+            <Content className="PageHeader--Subtitle" src={subtitle} />
+          )}
+        </div>
+        <div className="PageHeader--Video">
+          <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   )

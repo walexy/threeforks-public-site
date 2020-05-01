@@ -18,10 +18,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin-left: 2rem;
 }
 
 .Nav--Links > * + * {
-  margin-left: 1rem;
+  margin-left: rem;
 }
 
 .Nav .Logo {
