@@ -2,14 +2,14 @@
 template: HomePage
 slug: ''
 title: Trinity Forks
-featuredImage: 'http://localhost:8000/images/Trinity_Park_Fort_Worth_Texas_banner.jpg'
+featuredImage: ../images/Trinity_Park_Fort_Worth_Texas_banner.jpg
 subtitle: 'We&rsquo;re helping organizations like Zs Café work together with the best non-profits in Fort Worth to feed the hungry'
 meta:
   description: One Fort Worth to feed the hungry.
   title: Home
 sectionHeroVid: |-
   ## headline
-  <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameBorder="0" allow="autoplay; fullScreen" allowFullScreen></iframe>
 video: '/video/1080p.mov'
 videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
 videoTitle: One Fort Worth.
