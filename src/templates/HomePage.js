@@ -12,7 +12,6 @@ export const HomePageTemplate = ({
   subtitle,
   featuredImage,
   body,
-  sectionHeroVid,
   video,
   videoPoster,
   videoTitle,
@@ -59,7 +58,6 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
-        sectionHeroVid
         video
         videoPoster
         videoTitle

@@ -10,7 +10,7 @@ meta:
 sectionHeroVid: |-
   ## headline
   <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameBorder="0" allow="autoplay; fullScreen" allowFullScreen></iframe>
-video: '/video/1080p.mov'
+video: '/video/1080p.mp4'
 videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
 videoTitle: One Fort Worth.
 accordion:
