@@ -1,4 +1,4 @@
-.Logo {
+.Logo--NavLink {
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -10,4 +10,5 @@
 }
  .logo.svgicon {
    width: 140px;
+   height: 53px;
  }

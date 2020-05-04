@@ -1,15 +1,18 @@
 ---
 template: HomePage
 slug: ''
-title: Trinity Forks
-featuredImage: ../images/Trinity_Park_Fort_Worth_Texas_banner.jpg
-subtitle: 'We&rsquo;re helping organizations like Zs Café work together with the best non-profits in Fort Worth to feed the hungry'
+title: Working Together to Feed the Fort Worth Community
+featuredImage: ''
+subtitle: |-
+  ## Clean environment
+  ## Trained food handlers
+  ## **Pickup and Delivery** for those who can&rsquo;t leave their home
 meta:
   description: One Fort Worth to feed the hungry.
   title: Home
 sectionHeroVid: |-
-  ## headline
-  <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameBorder="0" allow="autoplay; fullScreen" allowFullScreen></iframe>
+  <iframe src='https://player.vimeo.com/video/413777672' frameBorder='0' allow="autoplay; fullscreen" allowFullScreen></iframe>
+
 video: '/video/1080p.mp4'
 videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
 videoTitle: One Fort Worth.
@@ -33,6 +36,8 @@ gallery:
     image: '../images/2020-03-16 16.50.04.png'
     title: Delivery
 ---
+We&rsquo;re helping organizations like Zs Café work together with the best non-profits in Fort Worth to feed the hungry
+
 Zs Café is using the Trinity Forks platform to track the growing food insecurity problem, recruit volunteers, and organize food delivery. They are great people doing great things &mdash; one vision to feed Tarrant county with our abundant resources and talents.
 
 Trinity Forks wants to help Zs Café and its partners to do the purpose-driven work they were called to do. They recruit volunteers, promote the cause, produce thousands of robust and healthy meals, and deliver it. Our application tracks the need, the facilities, and volunteers. It matches the need to the skills and resources required to feed 500,000 hungry people. 

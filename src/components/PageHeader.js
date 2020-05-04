@@ -9,33 +9,37 @@ const PageHeader = ({
   title,
   subtitle,
   backgroundImage,
-  large,
+  // large,
   className = ''
 }) => {
-  if (large) className += ' PageHeader-large'
+  // if (large) className += ' PageHeader-large'
   return (
     <div className={`PageHeader relative ${className}`}>
       {backgroundImage && (
         <Image
           background
           resolutions="large"
-          // src={backgroundImage}
+          src={backgroundImage}
           alt={title}
           size="cover"
         />
       )}
       <div className="container relative">
-        <div className="PageHeader--Video">
-          <div className='embed-container'>
-            <iframe src='https://player.vimeo.com/video/413777672' frameBorder='0' allow="autoplay; fullscreen" allowFullScreen></iframe>
-          </div>
-        </div>
-          <div className="flex flex-2col">
+        <div className="flex flex--2col flex--hero">
+          <div className="col-1">
             <h1 className="PageHeader--Title">{title}</h1>
             {subtitle && (
-              <Content className="PageHeader--Subtitle" src={subtitle} />
+              <Content className="PageHeader--Subtitle col-2" src={subtitle} />
             )}
           </div>
+          <div className="col-2">
+            <svg className="hero-illustration " 
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink">
+              <use xlinkHref={`/images/a19-icons.svg#foodHero`} />
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
   )

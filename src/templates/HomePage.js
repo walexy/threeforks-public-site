@@ -13,6 +13,7 @@ export const HomePageTemplate = ({
   subtitle,
   featuredImage,
   body,
+  sectionHeroVid,
   video,
   videoPoster,
   gallery,
@@ -25,6 +26,13 @@ export const HomePageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
+    <section className="section">
+      <div className="container relative">
+        <div className='embed-container'>
+          <Content source={sectionHeroVid} />
+        </div>
+      </div>
+    </section>
     <section className="section">
       <div className="container">
         <Content source={body} />
@@ -67,6 +75,7 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        sectionHeroVid
         video
         videoPoster
         videoTitle

@@ -11,6 +11,7 @@
   --charcoal: #3D3D3D;
   --danger: #D20710;
   --font-primary: 'Open Sans', 'Helvetica', 'Arial' sans-serif;
+  --font-serif: 'PT Serif','Georgia', 'Times New Roman', serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
@@ -73,6 +74,7 @@ h6 {
   margin: 0;
   margin-bottom: 0.5em;
   font-weight: normal;
+  font-family: var(--font-serif);
 }
 
 pre {
@@ -174,6 +176,24 @@ blockquote {
 }
 .section.noPadding {
   padding: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.flex.flex--2col {
+  flex-direction: row;
+  flex: 1 1 0;
+}
+.flex .col-1 {
+  width: 33%;
+  margin-right: 32px;
+}
+
+.flex.flex--hero .col-1 {
+  width: 50%;
 }
 
 @media (max-width: 600px) {
