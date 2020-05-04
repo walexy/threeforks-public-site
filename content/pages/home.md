@@ -22,6 +22,16 @@ accordion:
     title: Taciti lorem
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
+gallery:
+  - alt: Fresh Food
+    image: '../images/zs-cafe-gallery/2020-04-03 09.52.43.jpg'
+    title: Staging at the Zs Café
+  - alt: Sandwiches, Fresh Fruit, and Snacks
+    image: '../images/zs-cafe-gallery/boxed-lunches.jpg'
+    title: Fresh Food
+  - alt: Happy Family with Box of Food
+    image: '../images/2020-03-16 16.50.04.png'
+    title: Delivery
 ---
 Zs Café is using the Trinity Forks platform to track the growing food insecurity problem, recruit volunteers, and organize food delivery. They are great people doing great things &mdash; one vision to feed Tarrant county with our abundant resources and talents.
 

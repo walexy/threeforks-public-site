@@ -25,6 +25,14 @@
   margin-left: rem;
 }
 
+.Nav .Logo--NavLink {
+  background: var(--lightGrey);
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  padding: 40px;
+  padding-top: 55px;
+}
 .Nav .Logo {
   margin-right: 3rem;
   position: relative;

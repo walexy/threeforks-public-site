@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
+import Gallery from '../components/Gallery'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ 
@@ -14,6 +15,7 @@ export const HomePageTemplate = ({
   body,
   video,
   videoPoster,
+  gallery,
   videoTitle,
 }) => (
   <main className="Home">
@@ -32,6 +34,12 @@ export const HomePageTemplate = ({
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
+    </section>
+    <section className="section">
+      <div className="container">
+        <h2>Socially distanced, together</h2>
+        <Gallery images={gallery} />
+      </div>
     </section>
   </main>
 )
@@ -53,6 +61,7 @@ export const pageQuery = graphql`
   query HomePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       frontmatter {
         title

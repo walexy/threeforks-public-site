@@ -19,21 +19,23 @@ const PageHeader = ({
         <Image
           background
           resolutions="large"
-          src={backgroundImage}
+          // src={backgroundImage}
           alt={title}
           size="cover"
         />
       )}
       <div className="container relative">
-        <div>
-          <h1 className="PageHeader--Title">{title}</h1>
-          {subtitle && (
-            <Content className="PageHeader--Subtitle" src={subtitle} />
-          )}
-        </div>
         <div className="PageHeader--Video">
-          <iframe src="https://player.vimeo.com/video/413777672" width="640" height="360" frameBorder="0" allow="autoplay; fullScreen" allowFullScreen></iframe>
+          <div className='embed-container'>
+            <iframe src='https://player.vimeo.com/video/413777672' frameBorder='0' allow="autoplay; fullscreen" allowFullScreen></iframe>
+          </div>
         </div>
+          <div className="flex flex-2col">
+            <h1 className="PageHeader--Title">{title}</h1>
+            {subtitle && (
+              <Content className="PageHeader--Subtitle" src={subtitle} />
+            )}
+          </div>
       </div>
     </div>
   )
