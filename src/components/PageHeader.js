@@ -29,7 +29,7 @@ const PageHeader = ({
           <div className="col-1">
             <h1 className="PageHeader--Title">{title}</h1>
             {subtitle && (
-              <Content className="PageHeader--Subtitle col-2" src={subtitle} />
+              <Content className="PageHeader--Subtitle" src={subtitle} />
             )}
           </div>
           <div className="col-2">

@@ -182,10 +182,13 @@ blockquote {
   display: flex;
   align-items: baseline;
 }
+.flex.flex--hero {
+  align-items: center;
+}
 
 .flex.flex--2col {
   flex-direction: row;
-  flex: 1 1 0;
+  flex: 1 1 1;
 }
 .flex .col-1 {
   width: 33%;
@@ -194,6 +197,10 @@ blockquote {
 
 .flex.flex--hero .col-1 {
   width: 50%;
+}
+.flex.flex--hero .col-2 {
+  width: 50%;
+  align-self: stretch;
 }
 
 @media (max-width: 600px) {
