@@ -3,6 +3,7 @@ template: HomePage
 slug: ''
 title: Working Together to Feed the Fort Worth Community
 featuredImage: ''
+callOutBackground: '../images/organic-shapes-01.svg'
 subtitle: |-
   ## Clean environment
   ## Trained food handlers

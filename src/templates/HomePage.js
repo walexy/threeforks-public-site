@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
+import Image from '../components/Image' 
 import Gallery from '../components/Gallery'
 
 // Export Template for use in CMS preview
@@ -14,6 +15,7 @@ export const HomePageTemplate = ({
   featuredImage,
   body,
   sectionHeroVid,
+  callOutBackground,
   video,
   videoPoster,
   gallery,
@@ -27,14 +29,19 @@ export const HomePageTemplate = ({
       backgroundImage={featuredImage}
     />
     <section className="section">
+      {callOutBackground && (
+        <Image
+          background
+          src={callOutBackground}
+          alt={title}
+          backgroundSize="90%"
+        />
+      )}
       <div className="container relative">
+      
         <div className='embed-container'>
           <Content source={sectionHeroVid} />
         </div>
-      </div>
-    </section>
-    <section className="section">
-      <div className="container">
         <Content source={body} />
       </div>
     </section>
@@ -76,6 +83,7 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         sectionHeroVid
+        callOutBackground
         video
         videoPoster
         videoTitle
